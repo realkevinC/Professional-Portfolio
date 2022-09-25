@@ -1,37 +1,81 @@
 /* wireframing */
 * {
-    border: red solid 1px;
-    padding: 5px;
-    margin: 10px;
+    /* border: red solid 1px; */
+    padding: 0px;
+    margin: 0px;
 }
 
 
 header {
-    text-align: center;
+    
+    text-align: right;
+    font-size: 25px;
     background-color: skyblue;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    
+}
+nav {
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px;
+}
+
+h2 {
+    margin-bottom: 20px;
 }
 
 ul li {
     display: inline;
+    margin: 0px 10px;
 }
 
-main {
+footer {
+    text-align: center;
+}
+
+.card {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 5px solid gray;
+}
+
+#photo {
+    float: right;
+    display:block;
+    height: 150px;
+    width: 150px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
     
 }
 
-img {
-    display: block;
-    height: 115px;
-    width: 115px;
-    margin-left: auto;
-    margin-right: auto;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
 }
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
 
 
