@@ -3,9 +3,10 @@
     /* border: red solid 1px; */
     padding: 0px;
     margin: 0px;
+    background-color: lemonchiffon;
 }
 
-
+/* header part 1 */
 header {
     
     text-align: right;
@@ -20,6 +21,8 @@ header {
 nav {
     margin: 10px;
 }
+
+/* part 2 main */
 
 h1 {
     text-align: center;
@@ -56,9 +59,7 @@ nav ul li {
     margin: 0px 10px;
 }
 
-footer {
-    text-align: center;
-}
+
 
 .card {
     width: 80%;
@@ -81,7 +82,7 @@ footer {
 
 .work-item {
     border: 5px solid green;
-    background-color: blue;
+    /* background-color: blue; */
     min-height: 200px;
     max-height: 200px;
     display: flex;
@@ -89,9 +90,25 @@ footer {
 }
 
 .work-item:first-child {
-    min-height: 500px;
+    min-height: 400px;
     flex-basis: 100%;
 }
+
+.work-item-img {
+    height: auto;
+    width: 100%;
+  
+}
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Part 3 */
+
+footer {
+    text-align: center;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .work-container {
