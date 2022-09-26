@@ -92,13 +92,14 @@ nav ul li {
 .work-item:first-child {
     min-height: 400px;
     flex-basis: 100%;
+    background-image: url(assets/images/pexels-archie-binamira-913215.jpg);
+    width: 40px;
+    height: 40px;
 }
 
-.work-item-img {
-    height: auto;
-    width: 100%;
-  
-}
+
+    
+  }
 .contact {
     display: flex;
     justify-content: space-evenly;
