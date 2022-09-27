@@ -66,6 +66,7 @@ nav ul li {
 img {
     max-width: 100%;
     height: 100%;
+    
 }
 
 .card {
@@ -94,6 +95,8 @@ img {
     max-height: 200px;
     display: flex;
     margin: 10px;
+    overflow: hidden;
+    
 }
 
 .work-item:first-child {
@@ -109,7 +112,7 @@ img {
     display: flex;
     justify-content: space-evenly;
 }
-/* Part 3 */
+/* Part 3 footer*/
 
 footer {
     text-align: center;
