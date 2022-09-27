@@ -33,6 +33,10 @@ h2 {
     margin-bottom: 20px;
 }
 
+h3 {
+    margin: 25px 30px;
+}
+
 .about-me {
     display: flex;
     justify-content: space-between;
@@ -59,7 +63,10 @@ nav ul li {
     margin: 0px 10px;
 }
 
-
+img {
+    max-width: 100%;
+    height: 100%;
+}
 
 .card {
     width: 80%;
@@ -69,9 +76,9 @@ nav ul li {
 }
 
 #photo {
-    height: 134px;
-    width: 134px;
-    padding: 10px 0px;
+    height: 200px;
+    width: 200px;
+    padding: 10px 10px 10px 0px;
 }
 
 .work-container {
@@ -92,14 +99,12 @@ nav ul li {
 .work-item:first-child {
     min-height: 400px;
     flex-basis: 100%;
-    background-image: url(assets/images/pexels-archie-binamira-913215.jpg);
-    width: 40px;
-    height: 40px;
+
 }
-
-
-    
-  }
+ div p {
+    text-align: center;
+ }
+  
 .contact {
     display: flex;
     justify-content: space-evenly;
@@ -108,6 +113,7 @@ nav ul li {
 
 footer {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 /* Extra small devices (phones, 600px and down) */
